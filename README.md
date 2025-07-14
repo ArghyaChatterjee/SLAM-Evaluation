@@ -71,6 +71,22 @@ cloudcompare.CloudCompare
 ```
 Open the two ply files. Just drag and drop them inside Cloud Compare one by one. Select both of them one by one (hold ctrl key) to activate distance compare button on top. 
 
+## Compute Error
+After installing pcl-tools, you can check the functions [here](https://github.com/PointCloudLibrary/pcl/tree/master/tools). Use this command line with pcl-tool:
+```
+pcl_compute_cloud_error filename.pcd error_pc_out.pcd -correspondence nn > error.txt
+```
+Here are the descriptions:
+```
+filename.pcd - the input
+error_pc_out.pcd - output point cloud (colored with error)
+-correspondence nn indicates nearest neighbor correspondence for errors (there are other options)
+error.txt - saving the errors to a text file
+```
+To downsample/filter to reduce the data size (i.e. applying a grid filter)):
+```
+pcl_voxel_grid output.pcd input.pcd -leaf 0.0025
+```
 ## Follow Instructions from Cloud Compare
 Follow [these instructions](https://www.cloudcompare.org/doc/wiki/index.php?title=Cloud-to-Cloud_Distance) to compute point to point distance. Remember that the compared is 'map.ply and the reference is 'gt_map.ply'. After you have imported 2 pointcloud, click on compute to compute the distance.
 
