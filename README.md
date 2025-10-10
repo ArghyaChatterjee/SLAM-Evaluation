@@ -1,4 +1,4 @@
-# SLAM-Analysis-Tools
+# SLAM-Tools
 The repository contains instructions for Localization and Map Analysis.
 
 # Localization Analysis
