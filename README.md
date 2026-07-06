@@ -2,6 +2,10 @@
 
 A repository containing tools and instructions for evaluating **SLAM localization accuracy** and **3D map quality**.
 
+<div align="center">
+  <img src="media/map_error.png" width="800">
+</div>
+
 The repository covers:
 
 - Localization Analysis
@@ -25,6 +29,10 @@ The following tools are required:
 # Localization Analysis
 
 Localization accuracy is evaluated using **EVO**, which provides trajectory visualization and common odometry evaluation metrics such as:
+
+<div align="center">
+  <img src="media/trajectory_error.png" width="800">
+</div>
 
 - Trajectory visualization
 - Absolute Pose Error (APE)
@@ -371,11 +379,11 @@ A high standard deviation means the error changes significantly over time.
 
 # Map Analysis
 
+Map quality is evaluated using **CloudCompare** together with the **Point Cloud Library (PCL)**.
+
 <div align="center">
   <img src="media/map_error.png" width="800">
 </div>
-
-Map quality is evaluated using **CloudCompare** together with the **Point Cloud Library (PCL)**.
 
 The workflow consists of:
 
