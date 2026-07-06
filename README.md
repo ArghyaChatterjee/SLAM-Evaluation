@@ -32,7 +32,7 @@ Localization accuracy is evaluated using **EVO**, which provides trajectory visu
 
 <div align="center">
   <img src="media/trajectory_1.png" width="400">
-  <img src="media/trajectory_2.png" width="400">
+  <img src="media/trajectory_2.png" width="370">
 </div>
 
 - Trajectory visualization
