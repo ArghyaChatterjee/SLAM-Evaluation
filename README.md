@@ -371,6 +371,10 @@ A high standard deviation means the error changes significantly over time.
 
 # Map Analysis
 
+<div align="center">
+  <img src="media/map_error.png" width="800">
+</div>
+
 Map quality is evaluated using **CloudCompare** together with the **Point Cloud Library (PCL)**.
 
 The workflow consists of:
