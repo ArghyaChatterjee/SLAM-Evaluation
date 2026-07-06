@@ -31,7 +31,8 @@ The following tools are required:
 Localization accuracy is evaluated using **EVO**, which provides trajectory visualization and common odometry evaluation metrics such as:
 
 <div align="center">
-  <img src="media/trajectory_error.png" width="800">
+  <img src="media/trajectory_1.png" width="400">
+  <img src="media/trajectory_2.png" width="400">
 </div>
 
 - Trajectory visualization
